@@ -7,13 +7,14 @@
     <title>
         Marvel
        </title>
+       
        <style>
     body{
 
-        background-image: url(marvel.png);
+        background-image: url(fon.png);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 105%;
         height: 2000px;
         background-attachment: fixed;
         margin: 0;
@@ -27,7 +28,7 @@
     font-family: 'Marvel', sans-serif;
     color:black;
     line-height: 80%;
-    font-size: 3em;
+    font-size: 3.5em;
     padding:5% 0% 0% 44%;
     font-weight: 500;
     
@@ -49,11 +50,11 @@
     font-family: 'Inika', serif;
     line-height: 1.6;
     font-size: 1.8em;
-    padding:8% 0% 0% 42%;
+    padding:8% 0% 0% 43%;
     font-weight: 700;
     
 }
-.movies{
+.movieTitle{
 
     color:black;
     font-family: 'Assistant', sans-serif;
@@ -64,33 +65,33 @@
     text-align: right;
     
 }
-.heading1{ 
+.movie{ 
 
     color:black;
     font-family: 'Inika', serif;
     line-height: 1.6;
     font-size: 1.8em;
-    padding:5% 0% 0% 75%;
+    padding:5% 0% 0% 82%;
     font-weight: 700;  
-
-}
-.heading2{
-
-    color:black;
-    font-family: 'Inika', serif;
-    line-height: 1.6;
-    font-size: 1.8em;
-    padding:5% 0% 0% 2%;
-    font-weight: 700;
 
 }
 .cameo{
 
     color:black;
+    font-family: 'Inika', serif;
+    line-height: 1.6;
+    font-size: 1.8em;
+    padding:5% 0% 2% 2%;
+    font-weight: 700;
+
+}
+.cameoTitle{
+
+    color:black;
     font-family: 'Assistant', sans-serif;
     line-height: 80%;
     font-size: 1.7em;
-    padding:2% 0% 0% 2%;
+    padding:0% 0% 0% 2%;
     font-weight: 500;
     text-align: left;  
 
@@ -101,41 +102,48 @@
     line-height: 80%;
     font-size: 1.7em;
     font-weight: 500;
-    padding:2% 0% 0% 5%;
+    padding:0% 0% 0% 5%;
 
 }
-.layer{
+.picture{
 
     z-index: 2;
     margin: 0;
     background-size: cover;
     padding: 0;
     position: fixed;
-    margin-top: -25px;
+    margin-top: -15px;
 }
     </style>
 </head>
  <body>
-    <div class="layer">
-        <p><a href="Marvel.html"><img src="mar.jpg" width="200px" height="100px"> </a></p></div>
-     <h3 class="heading">The great man</h3>
-     <p class="name">Stan Lee</p>
+    <div class="picture">
+        <p><img src="data:image/png;base64,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" height="70" width="150"></p>
+    </div>
+     <h1 class="heading">The great man</h1>
+     <h2 class="name">Stan Lee</h2>
      <p class="text">American comic book writer, editor, publisher, and producer.
         He rose through the ranks of a family-run business called Timely Publications which would later become Marvel Comics' primary creative leader for two decades,
         leading its expansion from a small division of a publishing house to a multimedia corporation that dominated the comics and film industries.   
      </p>
-        <h2 class="heading1">Movies Stan Lee</h2>
-        <div class="movies">Avengers<hr></hr><br>Deadpool<hr></hr><br>Spider-Man<hr></hr><br>X-Man<hr></hr><br>And others<hr></hr></div>   
-        <h2 class="heading2">Cameo Stan Lee</h2>
-        <div class="cameo">X-Man</div>
-        <div class="slash">|</div>
-        <div class="cameo">Spider-Man 1,2,3</div>
-        <div class="slash">|</div>
-        <div class="cameo">Hulk</div>
-        <div class="slash">|</div>
-        <div class="cameo">Heroes</div>
-        <div class="slash">|</div>
-        <div class="cameo">And others</div>
+        <h3 class="movie">Movies Stan Lee</h3>
+        <div class="movieTitle">
+        <p>Avengers<hr></p> 
+        <p>Deadpool<hr></p>
+        <p>Spider-Man<hr></p>
+        <p>X-Man<hr></p>
+        <p>And others<hr></p>
+        </div>   
+        <h3 class="cameo">Cameo Stan Lee</h3>
+        <p class="cameoTitle">X-Man</p>
+        <p class="slash">|</p>
+        <p class="cameoTitle">Spider-Man 1,2,3</p>
+        <p class="slash">|</p>
+        <p class="cameoTitle">Hulk</p>
+        <p class="slash">|</p>
+        <p class="cameoTitle">Heroes</p>
+        <p class="slash">|</p>
+        <p class="cameoTitle">And others</p>
 </body>
 
 </html>
