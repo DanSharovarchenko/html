@@ -12,43 +12,45 @@
 
                margin: 0px;
                width: 100%;
-               height: 2500px;
+               
            }
            .heading{
 
                line-height: 40%;
                font-size: 1.5em;
+               color: white;
                display: relative;
                font-family: 'Comfortaa', cursive;
                position: fixed;
                width: 100%;
                height:80px;
-               padding:1.5% 0% 1% 38%;
+               padding:1% 0% 0% 41.5%;
+               
                margin: -16px;
-               background-color: rgb(111, 212, 86);
+               background-color: rgb(197, 206, 12);
                z-index: 5;
 
            }
            .ending{
             font-family: 'Comfortaa', cursive;
             position: relative;
-            line-height: 40%;
-            font-size: 1.0em;
-            color: black;
-            height: 80px;
-            width: 100%;
-            padding:2% 20% 0% 17%;          
-            background-color: rgb(111, 212, 86);
+            line-height: 390%;
+            font-size: 1.5em;
+            color: white;
+            height: 90px;
+            
+            padding:0% 0% 0% 18%;          
+            background-color: rgb(197, 206, 12);
            }
            .name{
     font-family: 'Amatic SC', cursive;
     position: relative;
     color:rgb(7, 123, 161);
-    line-height: 100%;
+    line-height: 200%;
     
-    font-size: 1.3em;
-    font-weight: 100;
-    padding: 0% 0% 0% 25%;
+    font-size: 3em;
+    font-weight: 300;
+    padding: 0% 0% 0% 28%;
     z-index: 4;
 }
 .text{
@@ -57,54 +59,74 @@
     color: black;
     line-height: 100%;
     font-size: 1.4em;
-    padding: 0% 20% 0% 25%;
+    padding: 0% 20% 0% 28%;
     z-index: 4;
 }
 
-.block{
+.mainBlock{
     display: block;
    position: relative;
-   height: 450px;
+   height: 700px;
     width: 100%;
     padding: 10% 0% 0% 0%;
 }
+.block{
+    display: block;
+   position: relative;
+   height: 700px;
+    width: 100%;
+    padding: 3% 0% 0% 0%;
+}
+.end{
+    display: block;
+   position: relative;
+   height: 1px;
+    width: 100%;
+    padding: 3% 0% 0% 0%;
+}
 .picture{
     position: relative;
-    padding: 0% 0% 2% 33%;
+    padding: 0% 0% 2% 37%;
 }
+
 
        </style>
 </head>
  <body>
-<div class="heading"><h1>Кафе "Перерыв"</h1></div>
+<header class="heading"><h1>Кафе "Перерыв"</h1></header>
 
-    <div class="block">
+    <div class="mainBlock">
         <div class="picture">
 <p><a href="C:/Users/User/html/Cafe.html"><img src="lemonad.jfif" width="500px" height="400"></a></p></div>
-<div class="name"><h2>ЛАЙМОВЫЙ БРИЗ</h2></div>
-<div class="text">Максимально полезный напиток. Содержит экстракт трав, минералы и
+<div class="name">ЛАЙМОВЫЙ БРИЗ</div>
+<main class="text">Максимально полезный напиток. Содержит экстракт трав, минералы и
     витамины, а кусочки лайма придадут напитку чудесный мягкий цитрусовый
-    аромат. Зарядись энергией на весь день!<hr></div>
+    аромат. Зарядись энергией на весь день!<hr></main>
 </div>
 
 <div class="block">
     <div class="picture">
-    <p><a href="C:/Users/User/html/Cafe.html"><img src="cola.jpg" width="500px" height="400"></a></p></div></div>
-    <div class="name"><h2>ЧАЙ ЛЬДИНКА</h2></div>
-    <div class="text">Это не просто традиционный чай. В нем смешаны мята и чайные специи, а
+    <p><a href="C:/Users/User/html/Cafe.html"><img src="cola.jpg" width="500px" height="400"></a></p></div>
+    <div class="name">ЧАЙ ЛЬДИНКА</div>
+    <main class="text">Это не просто традиционный чай. В нем смешаны мята и чайные специи, а
         также шоколадный сироп высшего качество, что придает напитку
-        удивительный вкус ледяного кофе.<hr>
+        удивительный вкус ледяного кофе.<hr></main>
     </div>
-</div>
+
     
 <div class="block">
     <div class="picture">
         <p><a href="C:/Users/User/html/Cafe.html"><img src="cofe.jfif" width="500px" height="400"></a></p></div>
-    <div class="name"><h2>ПОДЗАРЯДКА ДЛЯ МОЗГА</h2></div>
-    <div class="text">Проблемы с памятью? Тогда отведайте этот напиток, сделанный из черного
+    <div class="name">ПОДЗАРЯДКА ДЛЯ МОЗГА</div>
+    <main class="text">Проблемы с памятью? Тогда отведайте этот напиток, сделанный из черного
         чая и небольшого количество эспрессо. Ваш мозг будет вам благодарен за подзарядку.            
-        <hr>
-        </div>
+        
+        </main>
     </div>
+
+    <div class="end">
+        <footer class="ending">ПРИХОДИТЕ К НАМ КАЖДЫЙ ДЕНЬ И ПРОБУЙТЕ ЭТИ И ДРУГИЕ ЗАМЕЧАТЕЛЬНЫЕ НАПИТКИ !</footer>
+    </div>
+
 </body>
 </html>
