@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(25, 28, 32);
+}
+.card{
+    position: relative;
+    background-color: rgb(57, 61, 66);
+    height: 250px;
+    width: 400px;
+    border-radius: 2.3em;
+   
+}
+.git{
+   
+    padding: 1% 0% 1% 2%;
+    width: 195px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 3rem;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 63%;
+     background-color: white;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+}
+.git:hover{
+    filter: brightness(90%);
+}
+.git-place{
+    padding: 3% 0% 0% 43%;
+}
+.heading{
+    
+               line-height: 100%;
+               font-size: 1.8em;
+               font-weight: 100;
+               color: white;                           
+               position: relative;             
+               padding:7% 0% 0% 44%;
+               font-family: 'Montserrat', sans-serif;
+                  
+}
+.chip{
+position: relative;
+border-radius: 0.325rem;
+width: 2.25rem;
+height: 1.65rem;
+
+margin-left: 1.252rem;
+background: rgb(254,212,92);
+border: 1px solid #666;
+z-index: 2;
+}
+.chip-place{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.chip-top{
+    position: relative;
+border-radius: 0.325rem;
+width: 1.5rem;
+height: 1.66rem;
+margin-left: 0.25rem;
+margin-top: -1.45rem;
+background: rgb(254,212,92);
+border-left: 2px solid rgb(165,142,91);
+border-right: 2px solid rgb(165,142,91);
+z-index: 3;
+display: block;
+}
+.chip-right{
+    position: relative;
+
+width: 2.3rem;
+height: 1rem;
+margin-right: 0.9rem;
+margin-top: 0.2rem;
+background: rgb(254,212,92);
+border-top: 2px solid rgb(165,142,91);
+border-bottom: 2px solid rgb(165,142,91);
+z-index: 3;
+}
+.chip-center{
+    position: relative;
+
+width: 1.55rem;
+height: 1rem;
+margin-right: 1rem;
+margin-top: -1.25rem;
+background: rgb(254,212,92);
+border-top: 2px solid rgb(165,142,91);
+border-bottom: 2px solid rgb(165,142,91);
+z-index: 4;
+}
+.mcr{
+    background: red;
+position: relative;
+display: inline-block;
+width: 2.3rem;
+height: 2.3rem;
+border-radius: 100px;
+opacity: 0.6;
+margin-bottom: -17.5px;
+
+}
+.mcr-place{
+    padding: 0% 0% 0% 79%;
+    margin-top: -2.5rem;
+    
+}
+.mcy{
+    background: orange;
+position: relative;
+display: inline-block;
+width: 2.3rem;
+height: 2.3rem;
+border-radius: 100px;
+opacity: 0.6;
+margin-top: -2rem;
+margin-left: 340px;
+}
+.mcy-place{
+    padding: 0% 0% 0% 85%;
+}
+.info{
+padding: 2% 0% 0% 0%;
+color: white;
+font-size: 1.4em;
+font-weight: 100;
+text-align: center;
+position: relative;
+}
+
+.layer{
+    padding: 3% 0% 0% 36.8%;
+}
+.center{
+    padding: 0% 0% 0% 16%;
+}
+.card-inner{
+color: white;
+font-size: 0.8em;
+font-weight: 100;
+font-family: 'Raleway', sans-serif;
+margin-left: 1.98rem;
+position: relative;
+padding: 6% 0% 0% 0%;
+letter-spacing: 0.8px;
+}
+.bank{
+    color: white;
+font-size: 0.8em;
+font-weight: bold;
+letter-spacing: 0.3px;
+margin-left: 2rem;
+position: relative;
+padding: 0% 0% 0% 0%;
+}
+.number{
+    color: white;
+font-size: 1.3em;
+font-weight: normal;
+letter-spacing: 3px;
+margin-left: 5rem;
+position: relative;
+padding: 3% 0% 0% 0%;
+}
+.valid{
+    color: white;
+font-size: 0.3em;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+margin-left: 10rem;
+position: relative;
+padding: 6% 0% 0% 0%;
+
+}
+.date{
+    color: white;
+font-size: 1em;
+font-weight: normal;
+
+margin-top: -1.1rem;
+margin-left: 12rem;
+position: relative;
+padding: 0% 0% 0% 0%;
+}
+.name{
+    color: white;
+font-size: 1em;
+font-weight: normal;
+letter-spacing: 0.3px;
+margin-left: 2rem;
+position: relative;
+padding: 6% 0% 0% 0%;
+}
+.mc{
+    color: white;
+font-size: 0.7em;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+margin-left: 19.8rem;
+position: relative;
+padding: 0% 0% 0% 0%;
+margin-top: -1.8rem;
+}
