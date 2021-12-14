@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <title>
+        Website
+    </title>
+    
+  </head>
+  <body>
+<div class="header">
+    <div class="heading">Design Company</div>
+    
+<div class="buttons">Home</div>
+<div class="buttons">About</div>
+<div class="buttons">Work</div>
+<div class="buttons">More</div>
+</div>
+
+      <div id="progressbar"></div>
+      <div id="scrollPath"></div>
+<div class="name">Navigator for you</div>
+<div class="info">You can teleport to each section of website</div>
+      <div class="menu-place">
+          
+    <div class="menu">
+      <div class="navigation">
+<ul>
+    <li class="list active">
+        <a href="#">
+<span class="icon">
+    <ion-icon name="home-outline"></ion-icon>
+</span>
+<span class="text">Home</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+<span class="icon">
+    <ion-icon name="person-outline"></ion-icon>
+</span>
+<span class="text">Profile</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+<span class="icon">
+    <ion-icon name="briefcase-outline"></ion-icon>
+</span>
+<span class="text">About Us</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+<span class="icon">
+    <ion-icon name="information-outline"></ion-icon>
+</span>
+<span class="text">Info</span>
+        </a>
+    </li>   
+    <div class="indicator"></div>
+</ul>
+</div>
+</div>
+    </div>
+    <div class="blackLine"></div>
+<div class="name">Our Works</div>
+
+    <div class="works">
+        <div class="workButtons-place">
+        <div class="workButtons">All</div>
+        <div class="workButtons">Design</div>
+        <div class="workButtons">Development</div>
+        <div class="workButtons">Print</div>
+</div>
+<div class="picture">
+    
+<p><a href="C:/Users/User/html/Website.html"><img src="work1.jpeg" width="300px" height="200"></a></p></div>
+<div class="picture1">
+    
+<p><a href="C:/Users/User/html/Website.html"><img src="work2.jfif" width="300px" height="200"></a></p></div>
+<div class="picture2">
+    
+<p><a href="C:/Users/User/html/Website.html"><img src="work3.jfif" width="300px" height="200"></a></p>
+    </div>
+</div>
+
+<div class="batteries-place">
+<div class="topic3">
+    <div class="whiteName">More Information</div>
+    <div class="container">
+    <a href="#"><span>Read More</span></a>
+    <a href="#"><span>About Us</span></a>
+</div>
+</div>
+</div>
+
+<div class="whiteLine"></div>
+
+<div class="adding">
+<div class="whiteMain">FIND SHOP <br>SUBSCRIBE TO THE NEWSLETTER <br>BECOME A MEMBER OF THE CLUB <br>FEEDBACK</div>
+<div class="table1title">HELP</div>
+<div class="greyInfo">Order status</div>
+<div class="greyInfo">Deliver</div>
+<div class="greyInfo">Return</div>
+<div class="greyInfo">Payment Methods</div>
+<div class="greyInfo">To contact us</div>
+
+<div class="ion-icon-place">
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+let progress=document.getElementById('progressbar');
+let totalHeight=document.body.scrollHeight-window.innerHeight;
+window.onscroll=function()
+{
+    let progressHeight=(window.pageYOffset/totalHeight)*100;
+    progress.style.height=progressHeight+"%";
+}
+</script>
+<script>
+const list=document.querySelectorAll('.list');
+function activeLink(){
+    list.forEach((item)=>
+    item.classList.remove('active'));
+    this.classList.add('active');
+}
+list.forEach((item)=>
+item.addEventListener('click',activeLink));
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
