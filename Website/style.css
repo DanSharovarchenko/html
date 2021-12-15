@@ -436,15 +436,18 @@ background: #000;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
+
 .greyInfo{
-    padding: 0% 0% 0% 23.5%;
-    color: grey;
     
+    color: grey;
+    margin-left: 360px;
     font-size: 0.8em;
     font-weight: 100;
     line-height: 200%;
     
+    
     position: relative;
+    width:131px;
    
     
     font-family: 'Poppins', sans-serif;
