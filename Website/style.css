@@ -287,7 +287,7 @@ flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 11px;
     margin: 11px 5px 5px 5px;
-   
+    font-family: 'Roboto', sans-serif;
     height: 9px;
     display: inline-block;
     border-radius: 3rem;
@@ -343,7 +343,7 @@ margin: 0 auto;
     font-weight: 100;
     line-height: 63%;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
 }
 .blackLine{
     border-bottom: 2px solid #000;
@@ -380,7 +380,7 @@ margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 12px;
     margin: 11px 5px 5px 5px;
-    
+    font-family: 'Roboto', sans-serif;
     height: 9px;
     display: inline-block;
     border-radius: 3rem;
@@ -440,17 +440,18 @@ background: #000;
 .greyInfo{
     
     color: grey;
-    margin-left: 353px;
+    margin-left: 359px;
     font-size: 0.8em;
     font-weight: 100;
     line-height: 200%;
-    
+
+   width: 131px;
     
     position: relative;
-    width:131px;
+    height: 25px;
    
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     cursor: pointer;
 }
