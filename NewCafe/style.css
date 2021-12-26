@@ -16,6 +16,9 @@ body{
     z-index: 5;
     
 }
+.pos{
+    padding: 1%;
+}
 .ending{
     font-family: 'Comfortaa', cursive;
     position: relative;
@@ -51,7 +54,7 @@ body{
     position: relative;
     height: 700px;
     width: 100%;
-    padding: 10% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
 }
  .end{
     display: block;
@@ -66,7 +69,7 @@ body{
     padding: 0% 0% 2% 18%;
 }
 .container{
-    
+  
 width: 60%;
 margin: 60px auto;
 padding: 20px;
