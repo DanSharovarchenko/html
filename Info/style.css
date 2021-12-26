@@ -1,0 +1,85 @@
+
+    body{
+        background-color: black;
+    }
+    .card{
+      position: relative;
+        width: 300px;
+        height: 210px;
+        border-radius: 2em;
+        border: 2px solid white;
+        margin-left: 30%;
+    }
+    p{
+        color: white;
+     }
+     .name{
+      position: relative;           
+font-size: 0.8em;
+font-weight: bold;
+letter-spacing: 0.3px;
+font-family: 'Readex Pro', sans-serif;
+position: relative;
+padding: 3% 0% 0% 0%;
+text-align: center;
+color: white;
+     }
+     hr{
+         background-color: white;
+         height: 1px;
+     }
+   .titles{
+      font-family: 'Poppins', sans-serif;
+      position: relative;           
+font-size: 0.8em;
+font-weight: 300;
+letter-spacing: 0.3px;
+color: white;
+position: relative;
+padding: 0% 0% 0% 5%;
+
+   }
+   .title{
+      font-family: 'Lato', sans-serif;
+      position: relative;           
+font-size: 0.8em;
+font-weight: bold;
+letter-spacing: 0.3px;
+margin-top: -31px;
+position: relative;
+padding: 0% 0% 0% 27%;
+color: white;
+   }
+   .adress{
+      font-family: 'Lato', sans-serif;
+      position: relative;           
+font-size: 0.8em;
+font-weight: bold;
+letter-spacing: 0.3px;
+margin-top: -31px;
+position: relative;
+padding: 0% 0% 0% 20%;
+color: white;
+   }
+   .number{
+      font-family: 'Lato', sans-serif;
+      position: relative;           
+font-size: 0.8em;
+font-weight: 900;
+letter-spacing: 0.3px;
+margin-top: -31px;
+position: relative;
+padding: 0% 0% 0% 25%;
+color: white;
+   }
+   .website{
+      font-family: 'Lato', sans-serif;
+      position: relative;           
+font-size: 0.8em;
+font-weight: 900;
+letter-spacing: 0.3px;
+margin-top: -31px;
+position: relative;
+padding: 0% 0% 0% 16%;
+color: white;
+   }
