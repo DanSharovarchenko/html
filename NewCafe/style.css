@@ -10,14 +10,15 @@ body{
     position: fixed;
     width: 100%;
     height:80px;
-    padding:1% 0% 0% 41.5%;
-    margin: -60px;
+    padding:0% 0% 0% 40%;
+    
     background-color: rgb(197, 206, 12);
     z-index: 5;
     
 }
 .pos{
-    padding: 1%;
+    position: relative;
+    padding: 3%;
 }
 .ending{
     font-family: 'Comfortaa', cursive;
@@ -26,7 +27,7 @@ body{
     font-size: 1.5em;
     color: white;
     height: 90px;
-    padding:0% 0% 0% 18%;          
+    padding:0% 0% 0% 10%;          
     background-color: rgb(197, 206, 12);
 }
 .name{
@@ -61,15 +62,15 @@ body{
     position: relative;
     height: 1px;
     width: 100%;
-   
-    padding: 3% 0% 0% 0%;
+    margin-top: -6em; 
+    padding: 0% 0% 0% 0%;
 }
  .picture{
     position: relative;
     padding: 0% 0% 2% 18%;
 }
 .container{
-  
+position: relative;
 width: 60%;
 margin: 60px auto;
 padding: 20px;
