@@ -28,7 +28,9 @@ body{
     font-size: 1.5em;
     color: white;
     height: 70px;
-    padding-top:3%;             
+    width: 157.5%;
+    padding-top:4%;    
+    text-align: center;         
     background-color: rgb(197, 206, 12);
 }
 .name{
@@ -58,16 +60,7 @@ body{
     width: 100%;
     padding-top: 2%;
 }
- .end{
-    display: block;
-    position: relative;
-    height: 1px;
-    text-align: center;
-    width: 125.79%;
-    
-    
-    padding: 0%;
-}
+ 
  .picture{
     position: relative;
     
@@ -75,7 +68,7 @@ body{
 }
 .container{
 position: relative;
-width: 60%;
+width: 100%;
 margin-top: 3%;
 margin: 60px auto;
 padding: 20px;
