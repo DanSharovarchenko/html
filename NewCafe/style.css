@@ -21,14 +21,19 @@ body{
     position: relative;
     padding: 3%;
 }
-.ending{
+
+q[title]{
+    color: greenyellow;
+    quotes: "|" "|";
+}
+#ending {
     font-family: 'Comfortaa', cursive;
     position: relative;
     line-height: 100%;
     font-size: 1.5em;
     color: white;
     height: 70px;
-    width: 157.5%;
+    width: 100%;
     padding-top:4%;    
     text-align: center;         
     background-color: rgb(197, 206, 12);
