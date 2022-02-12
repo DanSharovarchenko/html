@@ -2,7 +2,7 @@ body{
     margin: 0px;
     width: 100%; 
 }
-.heading{
+#heading{
     line-height: 40%;
     font-size: 1.5em;
     color: white;               
@@ -26,15 +26,18 @@ q[title]{
     color: greenyellow;
     quotes: "|" "|";
 }
+[href*=".ru"] {
+    color: rgb(197, 206, 12);
+}
 #ending {
     font-family: 'Comfortaa', cursive;
     position: relative;
-    line-height: 100%;
+    line-height: 300%;
     font-size: 1.5em;
     color: white;
     height: 70px;
     width: 100%;
-    padding-top:4%;    
+    padding-top:0%;    
     text-align: center;         
     background-color: rgb(197, 206, 12);
 }
@@ -73,7 +76,7 @@ q[title]{
 }
 .container{
 position: relative;
-width: 100%;
+
 margin-top: 3%;
 margin: 60px auto;
 padding: 20px;
