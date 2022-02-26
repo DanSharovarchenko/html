@@ -65,7 +65,6 @@ q[title]{
     display: block;
     position: relative;
     height: 700px;
-    width: 100%;
     padding-top: 2%;
 }
  
@@ -74,7 +73,7 @@ q[title]{
     
     padding: 0% 0% 2% 0%;
 }
-.container{
+.box{
 position: relative;
 
 margin-top: 3%;
